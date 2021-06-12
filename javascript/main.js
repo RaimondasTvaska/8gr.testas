@@ -7,18 +7,32 @@ Taip pat parašykite funkciją kuri: isikviesdama save pačią atspausdina skai�
 
 */
 countKavine();
+filterKaunas();
+countFirstKavineDish();
+countKaunasDifferent();
+countAverage();
+comparisonAverage();
+countVegetarianDishes();
+comparisonVlnVegetarian();
 
 
-function countKavine() {
+
+
+function countKavine(data) {
     kavine = [];
     for (let i = 0; i < kavine.length; i++) {        
     }
-    console.log(data);
+    console.log('countKavine', data.length);
 }
 
-function filterKaunas() {
-    let result = data.filter((adresas)=>adresas.type === "Kaunas");
-console.log(result);
+function countKaunasKavines(data) {
+    let adresas = [];
+
+    for (var i = 0; i < adresas.length; i++) {
+        if (data[i].type === 'Kaunas') {
+            console.log(filterKaunas);;
+        }
+}
 }
 
 
